@@ -59,13 +59,13 @@
     let buttonWidth = 80;
     let fontSize = 20; // Starting font size in pixels
     const imagePaths = [
-      "./images/image1.gif",
-      "./images/image2.gif",
-      "./images/image3.gif",
-      "./images/image4.gif",
-      "./images/image5.gif",
-      "./images/image6.gif",
-      "./images/image7.gif"
+      "https://www.shutterstock.com/image-vector/baby-cat-surrounded-by-flowers-600nw-2323647275.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZyf-5OSMIp154XO5KLOlSmqXr_9rz7k_hBA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2tBQeL8nnmUxI539x8vDwKXJECX3vhkBj7A&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOSfN2QHMoNF_-HIxvdtwW1d-_oBzuy4Wqpw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRos0ObuS9DHywOr5zo0d3SpwhNpCjpgVGpWA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeJmZ0Q_ppDKHvDUUxY_h-seiVVA3LTUpsw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQPRzxO_Y6qipTosQXKILOlrIEIQTIPf0zA&s"
     ];
   
     noButton.addEventListener('click', function() {
@@ -85,7 +85,7 @@
     });
   
     yesButton.addEventListener('click', () => {
-      imageDisplay.src = './images/image7.gif'; // Change to image7.gif
+      imageDisplay.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE1L2pKQ8LZ2FLXPtPAaoKYug6rtSj7ckatw&s'; // Change to image7.gif
       valentineQuestion.textContent = "Yayyy!! :3"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
